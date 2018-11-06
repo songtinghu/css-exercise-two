@@ -1,6 +1,55 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body {
+  background-color: ##FFFFFF;
+  color: ##000000;
+	font-size: 16px;
 }
 
 nav {
@@ -8,6 +57,38 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+	font-size: 3.375em;
+	text-align: center;
+	margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin-top: 0em;
+  margin-bottom: 1em;
+}
+.author {
+	font-size: 1.5em;
+	margin-top: 0em;
+  margin-bottom: 1em;
+}
+figcaption {
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: 1em;
+  margin-bottom: 1em;
+}
+p {font-size: 1.5em;
+}
+p {line-height: 1.5;
+}
+p {
+  margin-top: 0em;
+  margin-bottom: 1em;
 }
 
 .logo {
@@ -21,6 +102,8 @@ nav {
 
 .medium-pic {
   width: 70%;
+	margin: 1px auto;
+	display: block;
 }
 
 .left, .right {
@@ -50,3 +133,9 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+	text-decoration: none;
+}
+a: link {color: #0000FF}
+a: visited {color: #800080}
